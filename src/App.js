@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
+import Title from "./title/Title.js";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Title />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This is a test. 
+          Welcome to China. 
         </p>
         <a
           className="App-link"
