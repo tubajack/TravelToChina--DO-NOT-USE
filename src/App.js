@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import Title from "./title/Title.js";
 import './App.css';
 
@@ -8,18 +7,12 @@ function App() {
     <div className="App">
       <Title />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome to China. 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <img id = "China" src = "./images/chinamap.jpg" alt = "China"/>
+  
       </header>
     </div>
   );
