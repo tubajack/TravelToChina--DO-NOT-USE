@@ -11,7 +11,7 @@ function App() {
           Welcome to China. 
         </p>
 
-        <img id = "China" src = "./images/chinamap.jpg" alt = "China"/>
+        <img id = "China" src = "images/chinamap.jpg" alt = "China"/>
   
       </header>
     </div>
