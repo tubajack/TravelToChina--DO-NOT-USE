@@ -6,7 +6,7 @@ let Title = () => {
     <div className="container">
       <div className="jumbotron">
         <h1>Travel To China</h1>
-        <p> ----------------- </p>
+        <h2>This application is useful for planning a trip to China</h2>
       </div>
       {}
     </div>
