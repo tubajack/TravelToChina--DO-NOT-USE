@@ -1,11 +1,23 @@
-import React from 'react'
+import React from "react";
+import { Dropdown } from "react-bootstrap";
+import "./navbar.css";
 
-function Navbar(){
-    return(
-        <div id = "viewport">
+function Navbar() {
+  return (
+    <div className = "navbar">
+      <Dropdown>
+        <Dropdown.Toggle variant="success" id="dropdown-basic">
+          Dropdown Button
+        </Dropdown.Toggle>
 
-        </div>
-    )
+        <Dropdown.Menu>
+          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+    </div>
+  );
 }
 
 export default Navbar;
