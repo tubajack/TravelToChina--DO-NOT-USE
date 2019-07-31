@@ -7,9 +7,6 @@ function App() {
     <div className="App">
       <Title />
       <header className="App-header">
-        <p>
-          Welcome to China. 
-        </p>
 
         <img id = "China" src = "images/chinamap.jpg" alt = "China" width = "100%" height = "100%"/>
   
