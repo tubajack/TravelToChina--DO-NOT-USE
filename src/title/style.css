@@ -6,6 +6,11 @@ h2{
     color: white;
 }
 
+p{
+    color: gold;
+}
+
 .title{
     background-color: black;
+    background-image: "../../public/images/chinaflag.jpg";
 }

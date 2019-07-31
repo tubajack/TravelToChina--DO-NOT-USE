@@ -8,9 +8,11 @@ let Title = () => {
     <Jumbotron className = "title">
       <h1>Welcome to China</h1>
       <p>
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
+        China is a country in East Asia. With a population of over 1.4 Billion people, it is the most populous country on Earth. 
       </p>
+      <p>
+        With an area of over 3.7 million square miles, China is the 3rd largest country in the world.
+      </p> 
       <p>
         <Navbar />
       </p>
